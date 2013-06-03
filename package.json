@@ -11,6 +11,13 @@
     "bugs" : {
         "url" : "https://github.com/asilvas/express-session-azure/issues"
     },
+    "dependencies": {
+        "azure": ">=0.6.0",
+        "express": ">=2.0.0"
+    },
+    "keywords": [
+        "azure", "express", "session"
+    ],
     "licenses" : [
         {
             "type" : "MIT",
