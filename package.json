@@ -3,7 +3,7 @@
     "description": "Node.js express session store provider for Windows Azure table storage",
     "main": "./lib/express-session-azure",
     "author": "Aaron Silvas",
-    "version": "0.2.1",
+    "version": "0.2.3",
     "repository" : {
         "type" : "git",
         "url" : "https://github.com/asilvas/express-session-azure.git"
