@@ -19,5 +19,5 @@ Typical usage for the most part:
 
     app.configure(function(){
         app.use(express.cookieDecoder());
-        app.use(express.session({ store: new AzureSessionStore() }));
+        app.use(express.session({ store: new AzureSessionStore({ name: "azure_storage_name", accessKey: "azure_storage_key" }) }));
     });
