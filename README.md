@@ -21,3 +21,10 @@ Typical usage for the most part:
         app.use(express.cookieDecoder());
         app.use(express.session({ store: new AzureSessionStore({ name: "azure_storage_name", accessKey: "azure_storage_key" }) }));
     });
+
+
+## Performance
+
+Leveraging Windows Azure Table Storage nets some impressive performance. Not the fastest session store,
+but for being highly distributed and fault tolerant, it's an easy win. Latencies should be less than
+20ms on average. Feel free to report your own findings.
